@@ -12,7 +12,6 @@ var computerPlayer, computerBase;
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   
-   //Initialising Engine
   engine = Engine.create();
   world = engine.world;
 	
@@ -56,8 +55,6 @@ function draw() {
    playerObj.display(); 
    computerBase.display() 
    computerPlayer.display();
-    
-   //display Player and computerplayer
   
    
 
